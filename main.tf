@@ -1,8 +1,3 @@
-
-+
-16
-−
-0
 resource "yandex_compute_instance" "default" {
  name = "dev-server"
  blueprint_id ="ubuntu_18_04"
